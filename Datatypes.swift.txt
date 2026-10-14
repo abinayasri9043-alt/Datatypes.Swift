@@ -1,0 +1,52 @@
+Swift Datatypes:
+let anInt = 42           
+let aDouble = 3.14       
+let isSwiftFun = true    
+let greeting = "Hello"    
+print(aDouble)
+print(isSwiftFun)
+print(greeting)
+
+import Foundation
+var studentName: String = "Abinayasri"
+var age: Int = 21
+var mark: Double = 89.5
+var grade: Character = "A"
+var isPassed: Bool = true
+print("Student Name:", studentName)
+print("Age:", age)
+print("Mark:", mark)
+print("Grade:", grade)
+print("Passed:", isPassed)
+
+Output:
+Student Name: Abinayasri
+Age: 21
+Mark: 89.5
+Grade: A
+Passed: true
+
+Number:
+let a = 5, b = 2
+print(a - b)
+print(a * b)
+print(Double(a) / Double(b))
+
+Boolean:
+let a = true, b = false
+print(a && b)
+print(a || b)
+print(!a)
+
+Character and string length:
+let ch: Character = "A"
+print(ch)
+let word = "Swift"
+print(word.count)
+
+
+
+
+
+
+
